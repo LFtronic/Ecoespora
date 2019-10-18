@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .nav-bar {
-  background-color: rgba(0,0,0,0.0);
+  background-color: rgba(255,255,255,0.8);
   display: table;
   width: 100%;
   text-align: center;
@@ -58,6 +58,7 @@
   margin-right: 40%;
   padding: 1.5vh 3vw;
   margin-bottom: 5vh;
+  border-bottom: 3px solid #000000;
 }
 .main-section-vision {
   background-position: center;
@@ -68,6 +69,7 @@
   margin-left: 40%;
   padding: 1.5vh 3vw;
   margin-bottom: 5vh;
+  border-bottom: 3px solid #000000;
 }
 .main-section-services {
   background-position: center;
@@ -77,6 +79,7 @@
   width: 60%;
   margin-right: 40%;
   padding: 1.5vh 3vw;
+  border-bottom: 3px solid #000000;
 }
 .main-section-title {
   font-size: 3vw;
@@ -84,4 +87,12 @@
 }
 .main-section-texto {
   text-align: justify;
+}
+.footer-section {
+  color: #FFFFFF;
+  background-color: #000769;
+  padding: 10vh 3vw;
+}
+.footer-title {
+  font-size: 5vh;
 }
