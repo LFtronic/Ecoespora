@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .nav-bar {
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(79,127,158,1);
   display: table;
   width: 100%;
   text-align: center;
@@ -25,11 +25,14 @@
 .nav-bar-link {
   text-transform: uppercase;
   font-size: 1.5vw;
-  padding: 2vh 1.5vw;
+  padding: 1vh 1.5vw;
   color: #000000;
   display: table-cell;
   vertical-align: middle;
   text-decoration: none;
+}
+.nav-bar-logo {
+  background-color: rgba(255,255,255,1);
 }
 .header-section {
   background-position: center;
