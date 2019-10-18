@@ -1,10 +1,48 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <meta charset="utf-8">
-    <title>Ecosporas</title>
+    <link rel="stylesheet" href="../View/Styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ecospora</title>
   </head>
+  <script type="text/javascript" defer src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+  <script type="text/javascript" defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+  <script type="text/javascript" defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-storage.js"></script>
+  <script type="text/javascript" defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+  <script type="text/javascript" defer src="Controller/db_init.js"></script>
+  <script type="text/javascript" defer src="Controller/main.js"></script>
   <body>
+    <nav class="nav-bar" id="nav-bar">
+      <a href="" class="nav-bar-link">Inicio</a>
+      <a href="" class="nav-bar-link">Networking</a>
+      <a href="" class="nav-bar-link">Dashboard</a>
+      <a href="" class="nav-bar-link">Eventos</a>
+      <a href="" class="nav-bar-link">Registro <i class="fa fa-user"></i></a>
+    </nav>
+    <header class="header-section">
+      <h1 class="header-title">Ecospora</h1>
+      <h2 class="header-subtitle">Celulas que mantienen vivo</h2>
+    </header>
+    <main class="main-section">
+      <div class="main-section-mission">
+        <h2 class="main-section-title">Misión</h2>
+        <p class="main-section-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="main-section-vision">
+        <h2 class="main-section-title">Visión</h2>
+        <p class="main-section-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="main-section-services">
+        <h2 class="main-section-title">Servicios</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </main>
+    <footer class="">
 
+    </footer>
   </body>
 </html>
