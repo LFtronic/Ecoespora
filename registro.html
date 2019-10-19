@@ -18,13 +18,14 @@
     <script type="text/javascript" defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
     <script type="text/javascript" defer src="Model/Scripts/db_init.js"></script>
     <script type="text/javascript" defer src="Model/Scripts/main.js"></script>
+    <script type="text/javascript" defer src="Model/Scripts/forms.js"></script>
     <!-- MARK: HTML body -->
     <nav class="nav-bar" id="nav-bar">
       <a href="https://luisfdz01.github.io/Ecosporas/" class="nav-bar-link nav-bar-logo"><img src="https://firebasestorage.googleapis.com/v0/b/ecosporas-hbdcm1.appspot.com/o/Logo.png?alt=media&token=ca175480-0624-411b-aa6e-2cec3f1f55a1" style="height:50px;"></a>
       <a href="dashboard" class="nav-bar-link">Dashboard</a>
       <a href="eventos" class="nav-bar-link">Eventos</a>
       <a href="ranking" class="nav-bar-link">Ranking</a>
-      <a href="registro" class="nav-bar-link">Acceder <i class="fa fa-user"></i></a>
+      <a href="registro" class="nav-bar-link" id="nav-bar-company">Acceder <i class="fa fa-user"></i></a>
     </nav>
     <main>
       <div class="intro">
@@ -33,7 +34,7 @@
         <p>Llena este formulario para poder registrarte en la plataforma y así disfrutar de todos los beneficios por ser parte de nuestra comunidad.</p>
         <br>
       </div>
-        <form class= "forms" id="Formulario"> <!--Forms-->
+        <form class= "forms" id="FormularioSignIn"> <!--Forms-->
           <h2>Nombre: </h2>
           <input placeholder= "Nombre" class= "emptyCel" type= "text" id="Nombre" required>
           <h2>Industria: </h2>
@@ -82,7 +83,7 @@
           <h2>Promedio de clientes: </h2>
           <input placeholder= "Clientes" class= "emptyCel" type= "number" id="Clientes" required>
           <h2>Contraseña: </h2>
-          <input placeholder= "Certificaciones" class= "emptyCel" type= "" id="Contrasena" required>
+          <input placeholder= "Certificaciones" class= "emptyCel" type= "password" id="Contrasena" required>
           <br>
           <button type="submit" id = "submit">Registrame</button>
       </form>
