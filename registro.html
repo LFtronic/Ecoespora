@@ -6,9 +6,10 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta charset="utf-8">
     <link rel="stylesheet" href="View/Styles/main.css">
+    <link rel="stylesheet" href="View/Styles/forms.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Ecospora - Registro</title>
-    <link rel="icon" href="View/Assets/Logo.png">
+    <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/ecosporas-hbdcm1.appspot.com/o/Logo.png?alt=media&token=ca175480-0624-411b-aa6e-2cec3f1f55a1">
   </head>
   <body>
     <script type="text/javascript" defer src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
@@ -19,12 +20,73 @@
     <script type="text/javascript" defer src="Model/Scripts/main.js"></script>
     <!-- MARK: HTML body -->
     <nav class="nav-bar" id="nav-bar">
-      <a href="https://luisfdz01.github.io/Ecosporas/" class="nav-bar-link nav-bar-logo"><img src="View/Assets/Logo.png" style="height:50px;"></a>
+      <a href="https://luisfdz01.github.io/Ecosporas/" class="nav-bar-link nav-bar-logo"><img src="https://firebasestorage.googleapis.com/v0/b/ecosporas-hbdcm1.appspot.com/o/Logo.png?alt=media&token=ca175480-0624-411b-aa6e-2cec3f1f55a1" style="height:50px;"></a>
       <a href="dashboard" class="nav-bar-link">Dashboard</a>
       <a href="eventos" class="nav-bar-link">Eventos</a>
       <a href="ranking" class="nav-bar-link">Ranking</a>
       <a href="registro" class="nav-bar-link">Acceder <i class="fa fa-user"></i></a>
     </nav>
+    <main>
+      <div class="intro">
+        <h1>Registra a tu empresa</h1>
+        <p>¿Interesado en entrar a Ecospora?</p>
+        <p>Llena este formulario para poder registrarte en la plataforma y así disfrutar de todos los beneficios por ser parte de nuestra comunidad.</p>
+        <br>
+      </div>
+        <form class= "forms" id="Formulario"> <!--Forms-->
+          <h2>Nombre: </h2>
+          <input placeholder= "Nombre" class= "emptyCel" type= "text" id="Nombre" required>
+          <h2>Industria: </h2>
+          <input placeholder= "Industria" class= "emptyCel" type= "text" id="Industria" required>
+          <h2>Descripción: </h2>
+          <input placeholder= "Descripción" class= "emptyCel" type= "text" id="Descripcion" required>
+          <h2>Ubicación: </h2>
+          <select class= "emptyCel" id="Ubicacion" required>
+            <option value="Aguascalientes">Aguascalientes</option>
+            <option value="Baja California">Baja California</option>
+            <option value="Baja California Sur">Baja California Sur</option>
+            <option value="Campeche">Campeche</option>
+            <option value="Chiapas">Chiapas</option>
+            <option value="Chihuahua">Chihuahua</option>
+            <option value="CDMX">CDMX</option>
+            <option value="Coahuila">Coahuila</option>
+            <option value="Colima">Colima</option>
+            <option value="Durango">Durango</option>
+            <option value="Guanajuato">Guanajuato</option>
+            <option value="Guerrero">Guerrero</option>
+            <option value="Hidalgo">Hidalgo</option>
+            <option value="Jalisco">Jalisco</option>
+            <option value="Edo Mex">Edo Mex</option>
+            <option value="Michoacan">Michoacan</option>
+            <option value="Morelos">Morelos</option>
+            <option value="Nayarit">Nayarit</option>
+            <option value="Nuevo León">Nuevo León</option>
+            <option value="Oaxaca">Oaxaca</option>
+            <option value="Puebla">Puebla</option>
+            <option value="Querétaro">Querétaro</option>
+            <option value="Quintana Roo">Quintana Roo</option>
+            <option value="San Luis Potosí">San Luis Potosí</option>
+            <option value="Sinaloa">Sinaloa</option>
+            <option value="Sonora">Sonora</option>
+            <option value="Tabasco">Tabasco</option>
+            <option value="Tamaulipas">Tamaulipas</option>
+            <option value="Tlaxcala">Tlaxcala</option>
+            <option value="Veracruz">Veracruz</option>
+            <option value="Yucatán">Yucatán</option>
+            <option value="Zacatecas">Zacatecas</option>
+          </select>
+          <h2>Certificaciones: </h2>
+          <input placeholder= "Certificaciones" class= "emptyCel" type= "text" id="Certificaciones" required>
+          <h2>Correo: </h2>
+          <input placeholder= "Correo" type="email" class= "emptyCel" id="Correo" required>
+          <h2>Promedio de clientes: </h2>
+          <input placeholder= "Clientes" class= "emptyCel" type= "number" id="Clientes" required>
+          <h2>Contraseña: </h2>
+          <input placeholder= "Certificaciones" class= "emptyCel" type= "" id="Contrasena" required>
+          <br>
+          <button type="submit" id = "submit">Registrame</button>
+      </form>
+    </main>
     <footer class="footer-section">
       <h3 class="footer-title">Dev Roots • Hack'n'Jam 19</h3>
       <hr class="footer-line">

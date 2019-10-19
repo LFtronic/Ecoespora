@@ -50,9 +50,10 @@
   background-image: linear-gradient(to bottom, #3914E0, #7714E0);
 }
 .header-title {
-  text-shadow: 1px 1px #000000;
+  text-shadow: 3px 3px #000000;
   text-align: center;
   padding-top: 20vh;
+  font-size: 10vw;
 }
 .header-title-ranking {
   color: #FFFFFF;
@@ -124,6 +125,7 @@
   color: #000000;
   border: 1px solid #000000;
   border-radius: 20px;
+  border-spacing: 0;
 }
 .main-ranking-header {
   text-align: center;
@@ -145,6 +147,12 @@
   margin: 0;
   padding: 3vh 0;
 }
+.main-ranking-row {
+
+}
+.main-ranking-body-cell:last-child, .main-ranking-body-cell:nth-last-child(2),.main-ranking-body-cell:nth-last-child(3){
+  border-bottom: 0;
+}
 .countdown {
   background-position: center;
   background-repeat: no-repeat;
@@ -160,6 +168,11 @@
 .main-section-countdown {
   font-size: 5.5vw;
   text-align: center;
+  text-shadow: 1px 1px #000000;
+}
+.main-section-text {
+  text-align: center;
+  font-size: 2vh;
   text-shadow: 1px 1px #000000;
 }
 .footer-section {
