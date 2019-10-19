@@ -6,9 +6,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta charset="utf-8">
     <link rel="stylesheet" href="View/Styles/main.css">
+    <link rel="stylesheet" href="View/Styles/forms.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="utf-8">
-    <title>Ecospora - Eventos</title>
+    <title>Ecospora - Ingreso</title>
     <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/ecosporas-hbdcm1.appspot.com/o/Logo.png?alt=media&token=ca175480-0624-411b-aa6e-2cec3f1f55a1">
   </head>
   <body>
@@ -18,7 +18,6 @@
     <script type="text/javascript" defer src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
     <script type="text/javascript" defer src="Model/Scripts/db_init.js"></script>
     <script type="text/javascript" defer src="Model/Scripts/main.js"></script>
-    <script type="text/javascript" defer src="Model/Scripts/comingSoon.js"></script>
     <!-- MARK: HTML body -->
     <nav class="nav-bar" id="nav-bar">
       <a href="https://luisfdz01.github.io/Ecosporas/" class="nav-bar-link nav-bar-logo"><img src="https://firebasestorage.googleapis.com/v0/b/ecosporas-hbdcm1.appspot.com/o/Logo.png?alt=media&token=ca175480-0624-411b-aa6e-2cec3f1f55a1" style="height:50px;"></a>
@@ -27,13 +26,17 @@
       <a href="ranking" class="nav-bar-link">Ranking</a>
       <a href="ingreso" class="nav-bar-link" id="nav-bar-company">Acceder <i class="fa fa-user"></i></a>
     </nav>
-    <header class="header-section">
-
-    </header>
-    <main class="main-section countdown" style="height: 80vh">
-      <h1 class="main-section-prompter">¡Próximamente!</h1>
-      <p class="main-section-countdown" id="main_section_countdown">0d 0h 0m 0s</p>
-      <p class="main-section-text">Hoy es un buen día para cambiar al mundo</p>
+    <main class="hurry">
+      <div>
+          <h1>Log In</h1>
+      </div>
+      <form id="FormularioLogIn">
+          <h2>Usuario:</h2>
+          <input id="user" type="text">
+          <h2>Contraseña</h2>
+          <input id="password" type="password">
+          <button type="submit" id = "submit">Inicial sesion</button>
+      </form>
     </main>
     <footer class="footer-section">
       <h3 class="footer-title">Dev Roots • Hack'n'Jam 19</h3>

@@ -22,6 +22,16 @@ h1{
     background-size: cover;
     max-width: 100%;
     font-size: 2.2rem;
+    text-shadow: 2px 2px #000000;
+}
+.hurry {
+  height: 100vh;
+  background: url("https://firebasestorage.googleapis.com/v0/b/ecosporas-hbdcm1.appspot.com/o/escri.jpg?alt=media&token=543dbf13-d169-46e2-85ca-bbef37a6a6bd");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  font-size: 2.2rem;
+  text-shadow: 2px 2px #000000;
 }
 .intro{
     font-size: 2rem;

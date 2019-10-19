@@ -24,10 +24,17 @@ try {
 }
 function logIn(e){
     e.preventDefault();
-    var recurso = getInputValues("password");
-    var cantidad = getInputValues("user");
+    var password = getInputValues("password");
+    var mail = getInputValues("user");
+    signIn(password, mail);
+}
 
-    writeUserData(recurso, cantidad);
+function signIn(mail, password) {
+  firebase.auth().signInWithEmailAndPassword(mail, password).then(function(){
+    }).catch(function(error) {
+      // TODO: Add error handling
+      // alert(error)
+    });
 }
 
 function writeUserData(recurso, cantidad){

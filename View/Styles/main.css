@@ -143,9 +143,9 @@
   font-size: 1.5vw;
 }
 .main-ranking-body-cell {
-  border-bottom: 1px solid #000000;
   margin: 0;
   padding: 3vh 0;
+  border-bottom: 1px solid #000000;
 }
 .main-ranking-row {
 
