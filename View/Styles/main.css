@@ -183,3 +183,27 @@
 .footer-title {
   font-size: 5vh;
 }
+.hurry101 {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/ecosporas-hbdcm1.appspot.com/o/grafica.jpg?alt=media&token=712cc85e-8785-4162-8800-6aa77bd2e233");
+}
+.text {
+  padding: 250px 10%;
+  width: 80%;
+  font-size: 2vw;
+  text-shadow: 1px 1px #FFFFFF;
+}
+.boton_siuuu {
+  margin-left: 40%;
+  margin-bottom: 10vh;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4F7F9E;
+  border-radius: 20px;
+  color: #FFFFFF;
+  width: 10%;
+  padding: 5vh 5%;
+}
