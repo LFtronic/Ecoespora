@@ -1,7 +1,5 @@
 window.onload = function() {
   checkAuthStatus();
-
-  });
 }
 
 function checkAuthStatus() {
@@ -14,6 +12,7 @@ function checkAuthStatus() {
         //callback
       });
     }
+  });
 }
 
 function getCompanyData(callback) {
